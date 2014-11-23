@@ -4,7 +4,8 @@ title: Marcel's IT Services - Accueil
 # Marcel's IT Services
 ## Un service IT pour les particuliers et petites entreprises
 
-[the clickable text](http://xlson.com/)
+[Home](/)
+[A propos](/about)
 
 ### Des services particuliers
 
