@@ -23,6 +23,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+@font-face {
+  font-family: 'MyTitleFont';
+  src: url('/fonts/quarkstormlaserital.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/fonts/quarkstormlaserital.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
 body {
   line-height: 1;
 }
@@ -59,6 +64,7 @@ header {
 }
 
 header h1 {
+  font-family: 'MyTitleFont', 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
   font-weight: bold;
   letter-spacing: -1px;
   font-size: 48px;

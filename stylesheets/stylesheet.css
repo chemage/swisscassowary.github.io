@@ -22,6 +22,10 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+@font-face {
+  font-family: 'MyTitleFont';
+  src: url('quarkstormlaserital.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -69,7 +73,7 @@ header {
 }
 
 header h1 {
-  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
+  font-family: 'MyTitleFont', 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
   letter-spacing: -1px;
   font-size: 48px;
   color: #303030;
