@@ -91,15 +91,26 @@ header h2 {
 #container {
   background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
   min-height: 595px;
+  /*background: #009000;*/
 }
 
 .inner {
   width: 620px;
   margin: 0 auto;
+  /*background: #900000;*/
 }
 
 #container .inner img {
   max-width: 100%;
+}
+
+#container .title {
+  text-align: center;
+}
+
+#container .menu {
+  text-align: center;
+  
 }
 
 #downloads {
